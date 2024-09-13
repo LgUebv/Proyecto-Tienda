@@ -1,0 +1,60 @@
+create database Tienda;
+use Tienda;
+
+create table Productos(
+    IDProducto int primary key auto_increment,
+    Nombre varchar(255),
+    Descripcion varchar(255),
+    Precio decimal(6,2)
+);
+
+create procedure p_insertar
+(
+    in _Nombre varchar(255),
+    in _Descripcion varchar(255),
+    in _Precio decimal(6,2)
+)
+begin   
+    insert into Productos 
+    (
+        Nombre, Descripcion, Precio
+    ) 
+    values
+    (
+        _Nombre,
+        _Descripcion,
+        _Precio
+    );
+end;
+call p_insertar ('Leche', 'De vaca alemana', 23.40);
+
+
+select * from Productos;
+
+create procedure p_modificar
+(
+    in _ID int,
+    in _Nombre varchar(255),
+    in _Descripcion varchar(255),
+    in _Precio decimal(6,2)
+)
+begin
+    Update Productos set 
+        Nombre = _Nombre,
+        Descripcion = _Descripcion,
+        Precio = _Precio
+    where IDProducto = _ID;
+end;
+call p_modificar (1, 'Lechita', 'Kiubo', 23.40);
+
+
+create procedure p_Eliminar
+(
+    in _ID int
+)
+begin
+    delete from Productos 
+    where IDProducto = _ID;
+end;
+call p_Eliminar (1);
+
