@@ -17,8 +17,16 @@ namespace Controller
 
         public void Guardar(TextBox Nombre, TextBox Descripcion, TextBox Precio)
         {
-            MessageBox.Show(f.Guardar($"call p_insertar ('{Nombre.Text}', '{Descripcion.Text}', {Precio.Text})"));
+            MessageBox.Show(f.Guardar($"call p_insertar ('{Nombre.Text}', '{Descripcion.Text}', {Precio.Text})"),
+                "Atencion!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        public void Modificar(TextBox Nombre, TextBox Descripcion, TextBox Precio, int ID)
+        {
+            MessageBox.Show(f.Modificar($"call p_modificar ({ID}, '{Nombre.Text}', '{Descripcion.Text}', {Precio.Text})"),
+                "Atencion!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
         DataGridViewButtonColumn Boton(string t, Color fondo)
         {
             DataGridViewButtonColumn b = new DataGridViewButtonColumn();

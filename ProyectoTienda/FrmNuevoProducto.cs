@@ -18,13 +18,19 @@ namespace ProyectoTienda
         {
             InitializeComponent();
             PC = new ProductsController();
+            if (FrmPrincipal.ID > 0)
+            {
+                txtNombre.Text = FrmPrincipal.Nombre.ToString();
+                txtDescripcion.Text = FrmPrincipal.Descripcion.ToString();
+                txtPrecio.Text = FrmPrincipal.Precio.ToString();
+            }
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             if (FrmPrincipal.ID > 0)
             {
-                //PC.Modificar(txtUsername, txtPassword, txtNombre, txtApellidos, cmbNivel, FrmMenu.ID);
+                PC.Modificar(txtNombre, txtDescripcion, txtPrecio, FrmPrincipal.ID);
             }
             else
             {
