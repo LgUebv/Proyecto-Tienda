@@ -24,6 +24,8 @@ namespace ProyectoTienda
         {
             InitializeComponent();
             PC = new ProductsController();
+            
+            txtProductos.Focus();
         }
 
         private void txtProductos_TextChanged(object sender, EventArgs e)

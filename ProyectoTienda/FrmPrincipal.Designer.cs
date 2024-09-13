@@ -28,15 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSalir = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.txtProductos = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.dtgvProductos = new System.Windows.Forms.DataGridView();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtProductos = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvProductos)).BeginInit();
@@ -44,87 +42,85 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(100)))), ((int)(((byte)(188)))));
             this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(718, 58);
+            this.panel1.Size = new System.Drawing.Size(718, 49);
             this.panel1.TabIndex = 0;
             // 
             // btnSalir
             // 
             this.btnSalir.AutoSize = true;
-            this.btnSalir.Location = new System.Drawing.Point(685, 20);
+            this.btnSalir.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.ForeColor = System.Drawing.Color.Red;
+            this.btnSalir.Location = new System.Drawing.Point(690, 3);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(13, 16);
+            this.btnSalir.Size = new System.Drawing.Size(25, 30);
             this.btnSalir.TabIndex = 1;
             this.btnSalir.Text = "x";
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(12, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(194, 24);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Lista de Productos";
+            // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(49)))), ((int)(((byte)(68)))));
             this.panel2.Controls.Add(this.txtProductos);
             this.panel2.Controls.Add(this.btnAdd);
             this.panel2.Controls.Add(this.dtgvProductos);
-            this.panel2.Location = new System.Drawing.Point(0, 57);
+            this.panel2.Location = new System.Drawing.Point(0, 49);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(717, 504);
+            this.panel2.Size = new System.Drawing.Size(718, 512);
             this.panel2.TabIndex = 1;
+            // 
+            // txtProductos
+            // 
+            this.txtProductos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(81)))));
+            this.txtProductos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtProductos.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtProductos.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtProductos.Location = new System.Drawing.Point(13, 12);
+            this.txtProductos.Name = "txtProductos";
+            this.txtProductos.Size = new System.Drawing.Size(693, 26);
+            this.txtProductos.TabIndex = 13;
+            this.txtProductos.TextChanged += new System.EventHandler(this.txtProductos_TextChanged);
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(13, 457);
+            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAdd.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(118)))), ((int)(((byte)(100)))));
+            this.btnAdd.Location = new System.Drawing.Point(13, 460);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(696, 42);
             this.btnAdd.TabIndex = 12;
-            this.btnAdd.Text = "Nuevo";
+            this.btnAdd.Text = "Agregar Producto";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // dtgvProductos
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgvProductos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dtgvProductos.AllowUserToAddRows = false;
+            this.dtgvProductos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(81)))));
             this.dtgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgvProductos.DefaultCellStyle = dataGridViewCellStyle2;
             this.dtgvProductos.Location = new System.Drawing.Point(13, 52);
             this.dtgvProductos.Name = "dtgvProductos";
             this.dtgvProductos.Size = new System.Drawing.Size(696, 399);
             this.dtgvProductos.TabIndex = 11;
             this.dtgvProductos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvProductos_CellClick);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(23, 20);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(118, 16);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Lista de Productos";
-            // 
-            // txtProductos
-            // 
-            this.txtProductos.Location = new System.Drawing.Point(13, 8);
-            this.txtProductos.Name = "txtProductos";
-            this.txtProductos.Size = new System.Drawing.Size(693, 22);
-            this.txtProductos.TabIndex = 13;
-            this.txtProductos.TextChanged += new System.EventHandler(this.txtProductos_TextChanged);
             // 
             // FrmPrincipal
             // 
