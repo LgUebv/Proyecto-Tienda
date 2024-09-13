@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\josem\\source\\repos\\ProyectoTienda\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B47ECCEE-8967-470B-B6D0-296DDA6BD986}|ProyectoTienda\\ProyectoTienda.csproj|c:\\users\\josem\\source\\repos\\proyectotienda\\proyectotienda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B47ECCEE-8967-470B-B6D0-296DDA6BD986}|ProyectoTienda\\ProyectoTienda.csproj|solutionrelative:proyectotienda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B66F518-E927-4FBC-9E7A-C2B64999C42C}|Controller\\Controller.csproj|c:\\users\\josem\\source\\repos\\proyectotienda\\controller\\dataaccesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B66F518-E927-4FBC-9E7A-C2B64999C42C}|Controller\\Controller.csproj|solutionrelative:controller\\dataaccesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4657216-A8BC-4C56-B20A-FD8709197ED7}|DataAccess\\DataAccess.csproj|c:\\users\\josem\\source\\repos\\proyectotienda\\dataaccess\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4657216-A8BC-4C56-B20A-FD8709197ED7}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Functions.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoTienda\\DataAccess\\Functions.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Functions.cs",
+              "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoTienda\\DataAccess\\Functions.cs",
+              "RelativeToolTip": "DataAccess\\Functions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T23:07:17.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataAccessController.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoTienda\\Controller\\DataAccessController.cs",
+              "RelativeDocumentMoniker": "Controller\\DataAccessController.cs",
+              "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoTienda\\Controller\\DataAccessController.cs",
+              "RelativeToolTip": "Controller\\DataAccessController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T22:59:42.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoTienda\\ProyectoTienda\\Form1.cs",
+              "RelativeDocumentMoniker": "ProyectoTienda\\Form1.cs",
+              "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoTienda\\ProyectoTienda\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoTienda\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T22:58:43.199Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
