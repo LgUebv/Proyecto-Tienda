@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\josem\\source\\repos\\ProyectoTienda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B47ECCEE-8967-470B-B6D0-296DDA6BD986}|ProyectoTienda\\ProyectoTienda.csproj|C:\\Users\\josem\\source\\repos\\ProyectoTienda\\proyectotienda\\frmnuevoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B47ECCEE-8967-470B-B6D0-296DDA6BD986}|ProyectoTienda\\ProyectoTienda.csproj|solutionrelative:proyectotienda\\frmnuevoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B47ECCEE-8967-470B-B6D0-296DDA6BD986}|ProyectoTienda\\ProyectoTienda.csproj|C:\\Users\\josem\\source\\repos\\ProyectoTienda\\proyectotienda\\frmnuevoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B47ECCEE-8967-470B-B6D0-296DDA6BD986}|ProyectoTienda\\ProyectoTienda.csproj|solutionrelative:proyectotienda\\frmnuevoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B66F518-E927-4FBC-9E7A-C2B64999C42C}|Controller\\Controller.csproj|c:\\users\\josem\\source\\repos\\proyectotienda\\controller\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B47ECCEE-8967-470B-B6D0-296DDA6BD986}|ProyectoTienda\\ProyectoTienda.csproj|c:\\users\\josem\\source\\repos\\proyectotienda\\proyectotienda\\frmnuevoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B47ECCEE-8967-470B-B6D0-296DDA6BD986}|ProyectoTienda\\ProyectoTienda.csproj|solutionrelative:proyectotienda\\frmnuevoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B66F518-E927-4FBC-9E7A-C2B64999C42C}|Controller\\Controller.csproj|C:\\Users\\josem\\source\\repos\\ProyectoTienda\\controller\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B66F518-E927-4FBC-9E7A-C2B64999C42C}|Controller\\Controller.csproj|solutionrelative:controller\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,24 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmNuevoProducto.cs",
               "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoTienda\\ProyectoTienda\\FrmNuevoProducto.cs",
               "RelativeDocumentMoniker": "ProyectoTienda\\FrmNuevoProducto.cs",
               "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoTienda\\ProyectoTienda\\FrmNuevoProducto.cs",
               "RelativeToolTip": "ProyectoTienda\\FrmNuevoProducto.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T01:26:14.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FrmNuevoProducto.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ProyectoTienda\\ProyectoTienda\\FrmNuevoProducto.cs",
               "RelativeDocumentMoniker": "ProyectoTienda\\FrmNuevoProducto.cs",
@@ -67,8 +67,7 @@
               "RelativeToolTip": "Controller\\ProductsController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T01:08:46.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T01:08:46.739Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "ProyectoTienda\\FrmPrincipal.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAgwDgAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T00:48:22.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T00:48:22.55Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "ToolTip": "C:\\Users\\josem\\source\\repos\\ProyectoTienda\\ProyectoTienda\\FrmPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "ProyectoTienda\\FrmPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T22:58:43.199Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-09-12T22:58:43.199Z"
             }
           ]
         }
