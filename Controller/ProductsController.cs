@@ -27,6 +27,17 @@ namespace Controller
                 "Atencion!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        public void Borrar(int ID, string dato)
+        {
+            DialogResult rs = MessageBox.Show($"Estas seguro de borrar {dato}?", "Atencion!!",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (rs == DialogResult.Yes)
+            {
+                f.Borrar($"call p_Eliminar ({ID})");
+                MessageBox.Show("Registro eliminado con exito", "Atencion!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
         DataGridViewButtonColumn Boton(string t, Color fondo)
         {
             DataGridViewButtonColumn b = new DataGridViewButtonColumn();

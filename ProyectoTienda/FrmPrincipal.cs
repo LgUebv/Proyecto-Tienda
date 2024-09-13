@@ -53,7 +53,7 @@ namespace ProyectoTienda
                 case 4:
                     {
                         ID = int.Parse(dtgvProductos.Rows[fila].Cells[0].Value.ToString());
-                        //PC.Borrar(ID, dtgvProductos.Rows[fila].Cells[1].Value.ToString());
+                        PC.Borrar(ID, dtgvProductos.Rows[fila].Cells[1].Value.ToString());
                         dtgvProductos.Visible = false;
                     }
                     break;
